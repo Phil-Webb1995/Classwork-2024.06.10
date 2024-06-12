@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: #f0f0f0;
+}
+.header img {
+    max-width: 100px;
+    border-radius: 50%;
+    border: 1px solid green;
+    
+}
+.header .engineer {
+    flex: 1;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+
+}
+.header .button {
+    background-color: greenyellow;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.header .button:hover {
+    background-color: green;
+    color: #f0f0f0;
+}
+ol {
+    margin: 10px;
+    padding: 0;
+    list-style-position: inside;
+}
+ol li {
+    padding: 5px;
+}
+ol li:nth-child(2n) {
+    background-color: lightgrey;
+}
+ul {
+    margin: 10px;
+    padding: 0;
+    list-style-position: inside;
+}
+ul li {
+    padding: 5px;
+}
+ul li:first-child,
+ul li:last-child {
+    font-weight: bold;
+}
